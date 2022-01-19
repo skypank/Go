@@ -11,3 +11,22 @@ Prep for Go coding interviews
 3. Multi paradigm
 4. Fully compiled
 5. Single binary output
+
+# Learn from the open source community
+This is a continually updated, open source project.
+
+#Contributions are welcome!
+
+# Index of Golang
+
+
+
+
+# Contributions 
+
+Feel free to submit pull requests to help:
+
+Fix errors
+Improve sections
+Add new sections
+
