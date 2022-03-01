@@ -14,6 +14,7 @@ Prep for Go coding interviews
 
 # Learn from the open source community
 This is a continually updated, open source project.
+[Go Tour](https://go.dev/tour/list)
 
 #Contributions are welcome!
 
