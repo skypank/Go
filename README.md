@@ -19,6 +19,7 @@ This is a continually updated, open source project.
 
 # Index of Golang
 1. [Hello World](https://github.com/skypank/Go/blob/main/src/hello_world.go)
+2. [Input/Output] (https://github.com/skypank/Go/blob/main/src/io.go)
 
 
 
