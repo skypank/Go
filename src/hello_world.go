@@ -22,12 +22,12 @@ import (
  List of all standard packages available in go is listed here - https://pkg.go.dev/std */
 
 func main() {
+  fmt.Println("Hello World")
   // Println is a function available under package fmt and is available for export
   // Notice that, the name of fucntion begins with capital letter 'Println'
   // In go, a function from a package can be exported only if it defined with capital letter
   // if package define func with small letter, then such function cannot be imported by other packages.
   // This is go's way of defining accessibility similar to private and public function in other languages.
-  fmt.Println("Hello World")
 }
 /* 'func' keyword is short form of function
  syntax :
