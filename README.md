@@ -22,6 +22,9 @@ This is a continually updated, open source project.
 1. [Hello World](https://github.com/skypank/Go/blob/main/src/hello_world.go)
 2. [Input/Output](https://github.com/skypank/Go/blob/main/src/io.go)
 3. [Strings](https://github.com/skypank/Go/blob/main/src/strings.go)
+4. [Variables](https://github.com/skypank/Go/blob/main/src/variables.go)
+5. [Functions](https://github.com/skypank/Go/blob/main/src/functions.go)
+6. [Array/Slice](https://github.com/skypank/Go/blob/main/src/array_slice.go)
 
 
 
