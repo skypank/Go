@@ -36,3 +36,7 @@ Fix errors
 Improve sections
 Add new sections
 
+# Points to Remember
+1. Name your variable meaningfully, that can potential reduce error by half and make code more readable/debuggable
+2. Modularise your code and use supporting functions for repitative activities, it reduces overall coding time
+
