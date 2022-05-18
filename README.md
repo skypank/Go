@@ -27,6 +27,7 @@ This is a continually updated, open source project.
 6. [Array/Slice](https://github.com/skypank/Go/blob/main/src/array_slice.go)
 7. [Stack](https://github.com/skypank/Go/blob/main/src/stack.go)
 8. [Queue](https://github.com/skypank/Go/blob/main/src/queue.go)
+9. [Linked List](https://github.com/skypank/Go/blob/main/src/linked_list.go)
 
 
 
