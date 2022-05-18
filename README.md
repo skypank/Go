@@ -25,6 +25,8 @@ This is a continually updated, open source project.
 4. [Variables](https://github.com/skypank/Go/blob/main/src/variables.go)
 5. [Functions](https://github.com/skypank/Go/blob/main/src/functions.go)
 6. [Array/Slice](https://github.com/skypank/Go/blob/main/src/array_slice.go)
+7. [Stack](https://github.com/skypank/Go/blob/main/src/stack.go)
+8. [Queue](https://github.com/skypank/Go/blob/main/src/queue.go)
 
 
 
@@ -39,4 +41,5 @@ Add new sections
 # Points to Remember
 1. Name your variable meaningfully, that can potential reduce error by half and make code more readable/debuggable
 2. Modularise your code and use supporting functions for repitative activities, it reduces overall coding time
+3. Asses Complexity of data structure / algorithms before implementing them.
 
