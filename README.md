@@ -45,7 +45,7 @@ This is a continually updated, open source project.
 20.[Insertionsort]
 21.[Topologicalsort]
 
-22.[RecursionTechniques]
+22.[Recursion Techniques]
 
 # Hard Problems
 
