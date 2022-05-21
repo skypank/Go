@@ -28,6 +28,27 @@ This is a continually updated, open source project.
 7. [Stack](https://github.com/skypank/Go/blob/main/src/stack.go)
 8. [Queue](https://github.com/skypank/Go/blob/main/src/queue.go)
 9. [Linked List](https://github.com/skypank/Go/blob/main/src/linked_list.go)
+10.[Trees](https://github.com/skypank/Go/blob/main/src/trees.go)
+11.[Tries](https://github.com/skypank/Go/blob/main/src/tries.go)
+12.[Graph](https://github.com/skypank/Go/blob/main/src/graph.go)
+13.[HashMap](https://github.com/skypank/Go/blob/main/src/hashmap.go)
+
+# Searching Techniques
+14.[Linear search]
+15.[Binary search]
+
+# Sorting Techniques
+16.[Quicksort]
+17.[Mergesort]
+18.[Heapsort]
+19.[Selectionsort]
+20.[Insertionsort]
+21.[Topologicalsort]
+
+22.[RecursionTechniques]
+
+# Hard Problems
+
 
 
 
