@@ -29,7 +29,7 @@ This is a continually updated, open source project.
 8. [Queue](https://github.com/skypank/Go/blob/main/src/queue.go)
 9. [Linked List](https://github.com/skypank/Go/blob/main/src/linked_list.go)
 10. [Trees](https://github.com/skypank/Go/blob/main/src/trees.go)
-11.[Tries](https://github.com/skypank/Go/blob/main/src/tries.go)
+11. [Tries](https://github.com/skypank/Go/blob/main/src/tries.go)
 12.[Graph](https://github.com/skypank/Go/blob/main/src/graph.go)
 13.[HashMap](https://github.com/skypank/Go/blob/main/src/hashmap.go)
 
