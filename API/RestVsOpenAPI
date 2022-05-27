@@ -1,0 +1,70 @@
+APIs are mechanisms that enable two software components to communicate with each other using a set of definitions and protocols.
+For example, the weather bureau’s software system contains daily weather data. 
+The weather app on your phone “talks” to this system via APIs and shows you daily weather updates on your phone.
+
+
+
+What does API stand for?
+
+API stands for Application Programming Interface. 
+In the context of APIs, the word Application refers to any software with a distinct function. 
+Interface can be thought of as a contract of service between two applications. 
+This contract defines how the two communicate with each other using requests and responses. 
+Their API documentation contains information on how developers are to structure those requests and responses.
+
+
+API architecture is usually explained in terms of client and server. 
+The application sending the request is called the client, and the application sending the response is called the server. 
+So in the weather example, the bureau’s weather database is the server, and the mobile app is the client. 
+
+There are four different ways that APIs can work depending on when and why they were created.
+
+SOAP APIs 
+These APIs use Simple Object Access Protocol. Client and server exchange messages using XML. 
+This is a less flexible API that was more popular in the past.
+
+RPC APIs
+These APIs are called Remote Procedure Calls. The client completes a function (or procedure) on the server, 
+and the server sends the output back to the client.
+
+Websocket APIs
+Websocket API is another modern web API development that uses JSON objects to pass data. 
+A WebSocket API supports two-way communication between client apps and the server. 
+The server can send callback messages to connected clients, making it more efficient than REST API.
+
+REST APIs
+These are the most popular and flexible APIs found on the web today. 
+The client sends requests to the server as data. 
+The server uses this client input to start internal functions and returns output data back to the client. 
+
+Let’s look at REST APIs in more detail below.
+
+What are REST APIs?
+REST stands for Representational State Transfer. REST defines a set of functions like GET, PUT, DELETE, etc. that clients can use to access server data. 
+Clients and servers exchange data using HTTP.
+
+The main feature of REST API is statelessness. Statelessness means that servers do not save client data between requests. 
+Client requests to the server are similar to URLs you type in your browser to visit a website. 
+The response from the server is plain data, without the typical graphical rendering of a web page.
+
+REST (REpresentational State Transfer) describes a way how a clients and servers interact with each other. 
+REST communication typically bases on HTTP protocol (but that isn't a requirement) and requests are made to a resource URI, 
+possibly containing additional request data, and replies can be anything: HTML, XML, JSON, CSV, plain-text or even raw binary data. 
+
+It's not a concrete protocol but a way of communication a protocol can use, similar to SOAP or WSDL.
+
+To access a REST service, the client needs to know the REST API that service if offering, so there must be documentation and you need to write code
+according to that documentation. With OpenAPI this step is automated. With OpenAPI, there exists a machine parse-able file that explains computers 
+how a REST API works. It tells code what requests exists and what replies to expect. To quote from the OpenAPI description:
+
+The OpenAPI Specification (OAS) defines a standard, programming language-agnostic interface description for REST APIs,
+which allows both humans and computers to discover and understand the capabilities of a service without requiring access to source code, 
+additional documentation, or inspection of network traffic.
+
+https://github.com/OAI/OpenAPI-Specification
+
+So if you have a OpenAPI implementation and an OpenAPI description file of a REST API, you can feed that description file to the OpenAPI implementation
+and this implementation now knows how to use the REST API, it can generate human readable documentation for you 
+or it could even auto generate code to use the REST API in different languages.
+
+https://aws.amazon.com/what-is/api/
