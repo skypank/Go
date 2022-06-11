@@ -11,10 +11,12 @@ type single struct {
 
 var singleInstance *single
 
-var mutex = &sync.Mutex{}
+var mutex = &sync.RWMutex{}
 
 func getInstance() *single {
+	mutex.RLock()
 	if singleInstance == nil {
+		mutex.RUnLock()
 		mutex.Lock()
 		defer mutex.Unlock()
 		if singleInstance == nil {
@@ -25,6 +27,7 @@ func getInstance() *single {
 		}
 
 	} else {
+		defer mutex.RUnLock()
 		fmt.Println("singleton already created")
 	}
 	return singleInstance
