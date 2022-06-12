@@ -54,6 +54,7 @@ func main() {
 
 }
 
+// Problem simulation
 func (ph *philosopher) eat() {
 	fmt.Println(ph.name, "Started :")
 	defer wg.Done()
@@ -71,4 +72,34 @@ func (ph *philosopher) eat() {
 	}
 	fmt.Println(ph.name, "Finished :")
 }
-// Problem simulation
+
+// to solve this problem, we can set an order for philosophers that they will pick lowered number fork first
+//Solution
+/* 
+func (ph *philosopher) eat() {
+	fmt.Println(ph.name, "Started :")
+	defer wg.Done()
+	for j := 1; j < 5; j++ {
+		if ph.leftForkId < ph.rightForkId {
+			fmt.Println("\t\t", ph.name, "waiting for left fork", ph.leftForkId)
+			ph.leftFork.Lock()
+			fmt.Println("\t", ph.name, "got left fork", ph.leftForkId)
+			fmt.Println("\t\t", ph.name, "waiting for right fork", ph.rightForkId)
+			ph.rightFork.Lock()
+		} else {
+			fmt.Println("\t\t", ph.name, "waiting for right fork", ph.rightForkId)
+			ph.rightFork.Lock()
+			fmt.Println("\t", ph.name, "got right fork", ph.rightForkId)
+			fmt.Println("\t\t", ph.name, "waiting for left fork", ph.leftForkId)
+			ph.leftFork.Lock()
+		}
+		fmt.Println("\t", ph.name, "is eating", j, "time")
+		time.Sleep(3 * time.Second)
+		fmt.Println("\t", ph.name, " :thinking")
+		ph.rightFork.Unlock()
+		ph.leftFork.Unlock()
+
+	}
+	fmt.Println(ph.name, "Finished :")
+}
+*/
