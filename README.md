@@ -33,14 +33,15 @@ Go Lang Basics
 9. [Linked List](basicsRefresher/1_TheGoLanguage/9_linked_list.go)
 10. [Trees](basicsRefresher/1_TheGoLanguage/10_trees.go)
 11. [Graph](basicsRefresher/1_TheGoLanguage/11_graph.go)
-13.[Maps](basicsRefresher/1_TheGoLanguage/12_hashmap.go)
+12. [Maps](basicsRefresher/1_TheGoLanguage/12_hashmap.go)
 
 Operating System Basics
 -------------------
+1. [Concurrency](basicsRefresher/2_OS_Concepts)
 
 Design Basics
 -------------------
-
+1. [API Design](basicsRefresher/3_Design/2_APIsDesign)
 
 # Problem Solving 
 
