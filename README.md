@@ -18,9 +18,10 @@ This is a continually updated, open source project.
 
 Contributions are welcome!
 
-BASICS - Start here
+# BASICS (start here)
+
+Go Lang Basics
 -------------------
-# Go Lang Basics
 1. [Hello World](basicsRefresher/1_TheGoLanguage/1_hello_world.go)
 2. [Input/Output](basicsRefresher/1_TheGoLanguage/2_io.go)
 3. [Strings](basicsRefresher/1_TheGoLanguage/3_strings.go)
@@ -34,27 +35,29 @@ BASICS - Start here
 11. [Graph](basicsRefresher/1_TheGoLanguage/11_graph.go)
 13.[Maps](basicsRefresher/1_TheGoLanguage/12_hashmap.go)
 
-# Operating System Basics
+Operating System Basics
+-------------------
 
-# Design Basics
+Design Basics
+-------------------
 
 
-Problem Solving 
+# Problem Solving 
+
+Data Structure Solutions
 --------------------------
 
-# Data Structure Solutions
+Algorithm Solutions
+--------------------------
 
-# Algorithm Solutions
 
-Interviews
--------------------------
+# Interviews
 1. [Resume Preparation] 
 2. [Recruiter Connection] 
 3. [Relentless Pursuit]
 4. [Coding Interviews]
 5. [Design Interviews]
 
-Thank you!
 
 # Contributions 
 Feel free to submit pull requests to help:
