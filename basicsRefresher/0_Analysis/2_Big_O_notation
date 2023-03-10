@@ -1,0 +1,17 @@
+It is used to define the space / time complexity of an algorithm
+
+O(n) may denote, the time complexity of an alogrithm that is traversing an array of length n
+
+List of complexities, sorted in order (from fastest to slowest)
+
+O(1)       - constant
+O(log(n))  - logarithmic
+O(n)       - linear
+O(nlog(n)) - log-linear
+O(n^2)     - quadratic
+O(n^3)     - cubic
+O(2^n)     - exponential
+O(n!)      - factorial
+
+An algorithm can have mutliple time complexity based on the cases defined, like best case, worst case and average case.
+usually big O notation denotes worst case complexity in terms of coding questions, but it is important to specify them explicitly.
