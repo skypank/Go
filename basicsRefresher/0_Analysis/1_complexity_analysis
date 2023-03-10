@@ -1,0 +1,5 @@
+Process of finding, how efficient the algorithm is.
+
+Time complexity : How fast an algorithm runs, expressed in terms on Big O notation
+
+Space complexity: How much auxillary memory an algorithm takes, expressed in terms of Big O notation.
