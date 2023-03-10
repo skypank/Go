@@ -1,0 +1,14 @@
+Bit : Its fundamental unit of information in computers, binary digit can have two values 0 or 1.
+
+Byte: 8 bits are equal to 1 byte, 00000001 is one byte
+      a single byte can represent upto 2^8 values (256 distinct values)
+      
+Integer: Represented in either 32 bits or 64 bits, basically group of 4/8 distinct bytes
+       decimal number 1 represented in 32 bit - 00000000 00000000 00000000 00000001
+       all integers are represented similarly in fixed size irrespective of their decimal value, so each representation has limit to hold values
+       beyond which the representation will become invalid.
+       
+Storage in Memory: Data stored in memory is represented by bytes (combination of bits)
+                   These bytes can also point to other bytes in memory by way of reference
+                   The storage memory is limited by these units, so needs to be utilized judiciously
+                   Accessing a byte of memory is elementary operation, this can be termed as single unit of operation.
