@@ -71,5 +71,5 @@ func main() {
 	// Constants can be character, string, boolean, or numeric values.
 	const T = true
 	fmt.Printf("value of t %v", T)
-	//Constants cannot be declared using the := syntax.
+	//Constants cannot be declared using the := syntax. because := is meant for variable and const are immutable
 }
