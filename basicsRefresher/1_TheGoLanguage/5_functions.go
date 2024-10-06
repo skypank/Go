@@ -54,7 +54,7 @@ var x = 2
 func insideFunc() {
 	// accessing global var x
 	fmt.Println(x)
-	// declaring local var x, now the global var x will not be able inside this func
+	// declaring local var x, now the global var x will not be available inside this func
 	x := 1
 	fmt.Println(x)
 }
