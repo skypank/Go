@@ -77,7 +77,7 @@ func main() {
 	fmt.Println("Index:     ", strings.Index("test", "e"))
 	fmt.Println("Join:      ", strings.Join([]string{"a", "b"}, "-"))
 	fmt.Println("Repeat:    ", strings.Repeat("a", 5))
-	fmt.Println("Replace:   ", strings.Replace("foo", "o", "0", -1))
+	fmt.Println("Replace:   ", strings.Replace("foo", "o", "0", -1)) // -1 here means all the occurrence of 0 will be replaced by 0
 	fmt.Println("Replace:   ", strings.Replace("foo", "o", "0", 1))
 	fmt.Println("Split:     ", strings.Split("a-b-c-d-e", "-"))
 	fmt.Println("ToLower:   ", strings.ToLower("TEST"))
